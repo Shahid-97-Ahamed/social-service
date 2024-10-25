@@ -1,0 +1,38 @@
+@charset "UTF-8";
+header {
+  height:100px;
+}
+main{
+  width: 640px;
+  display: flex;
+  justify-content: space-between;
+}
+nav{
+  width:22%;
+}
+article{
+  width: 78%;
+}
+body{
+  background-image: url(../images/back.gif);
+  background-repeat: repeat-y;
+  width: 650px;
+  margin-left: 10px;
+}
+h1{
+  font-size: 380%;
+  background-color: #99cccc;
+}
+h2{
+  font-size: 200%;
+  color: #ffffff;
+  background-color: #339966;
+}
+li{
+  font-size: 1em;
+  line-height: 3em;
+  background-color: #ccffff;
+}
+td{
+  vertical-align: top;
+}
